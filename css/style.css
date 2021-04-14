@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+body{
+   background-color: #0E1424;
+   font-family: 'Merriweather', serif;
+}
+header{
+   background-image: url("/images/new.jpg");
+   text-align: center;
+   background-repeat: no-repeat;
+   background-position: center; 
+   background-size: cover;
+   font-size: 30px;
+   color: white;
+   padding-top: 250px;
+   padding-bottom: 250px;
+}
+.intro{ 
+   color: rgb(172, 172, 172);
+   font-size: large;
+   text-align: left;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   display: flex;
+   justify-content:space-between;
+   margin: 0 20px;
+}
+
+.intro p{
+   width: 60%;
+}
+/* .intro ol{
+   width: 60%;
+} */
+h1.intro1{
+   font-size: 40px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: black;
+   text-align: right;
+   border-style: inset;
+   border-color: #E5181E;
+   color:#40E9E0;
+   margin: 0 20px;
+}
+h1.intro2{
+   font-size: 40px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   color: black;
+   text-align: left;
+   border-style: inset;
+   border-color: #E5181E;
+   color:#40E9E0;
+   margin: 0 20px;
+}
+.right{ 
+   color: rgb(150, 139, 139);
+   font-size: large;
+   text-align: left;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   display: flex;
+   justify-content: space-between;
+   margin: 0 20px;
+}
+.right p{
+   width: 60%;
+}
+.footer{
+   text-align: center;
+   color: blue;
+}
